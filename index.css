@@ -1,0 +1,16 @@
+body {
+  background-color: yellowgreen;
+}
+
+body {
+  color: wheat;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
+}
