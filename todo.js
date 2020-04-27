@@ -26,10 +26,9 @@ function saveTodos() {
 function paintToDo(text) {
   const li = document.createElement("li");
   const delBtn = document.createElement("button");
-  const span = document.createElement("span");
+  const span = document.createElement("span"); //투두리스트 입력된 텍스트를 위한 엘리먼트
   const newId = toDos.length + 1;
-  delBtn.innerText = "❌";
-
+  delBtn.innerText = "✔︎";
   delBtn.addEventListener("click", deleteToDo);
   span.innerText = text;
   li.appendChild(delBtn);
