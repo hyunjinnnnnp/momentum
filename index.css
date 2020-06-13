@@ -80,7 +80,15 @@ body {
   text-shadow: none;
   opacity: 0.7;
 }
-.js-clock h1 {
-  margin-bottom: 10px;
+.js-clock {
+  display: flex;
+  align-items: center;
+}
+.clock__date {
   opacity: 0.8;
+}
+.clock__clock {
+  opacity: 0.8;
+  font-size: 15px;
+  align-self: flex-end;
 }
